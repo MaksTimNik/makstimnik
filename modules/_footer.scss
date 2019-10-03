@@ -1,0 +1,256 @@
+.el-footer{
+	background-color: $white;
+	padding-bottom: 140px;
+	
+	&__subscribe{
+		width: 100%;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		background-color: $light-blue;
+		border-radius: 10px;
+	}
+
+
+	
+	&__envelope{
+		padding-right: 22px;
+		    
+	}
+	&__title-sub{
+		display: inline-block;
+		font-family: $nt;
+		font-size: 18px;
+		font-weight: 400;
+	    color: $white;
+	    line-height: 18px;
+	    padding-left: 42px;
+	       
+	}
+	
+ 
+	&__button{
+		
+	position: relative;
+    font-family: $ps;
+	font-size: 14px;
+	font-weight: 400;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 21px 25px;
+    line-height: 0.80px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    &:focus{
+	    box-shadow: 0 0 0 0 rgb(104, 82, 237);
+	}
+	&:hover:before{
+		display: none;
+
+	}
+	&:hover, &:active, &:focus{
+
+	    border-color: $white;
+	    span.EL-footer__button-text{
+	    	color: $white;
+	    }
+	}
+
+&:before{
+	    content: "";
+		position: absolute;
+		top: -2px;
+		left: -2px;
+		width: calc(100% + 4px);
+		height: calc(100% + 4px);
+	    background: rgb(186,67,252);
+		background: -moz-linear-gradient(left, rgba(186,67,252,1) 0%, rgba(104,82,237,1) 100%);
+		background: -webkit-linear-gradient(left, rgba(186,67,252,1) 0%,rgba(104,82,237,1) 100%);
+		background: linear-gradient(to right, rgba(186,67,252,1) 0%,rgba(104,82,237,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba43fc', endColorstr='#6852ed',GradientType=1 );
+	    border-radius: 25px;
+	    
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background-color: $light-blue;
+		border-radius: 25px;
+	}
+	&-text{
+		position: relative;
+		z-index: 2;
+		display: inline-block;
+		color: $white;
+
+	}
+	@media (max-width: 991px) {
+    margin-top: 30px;
+
+
+    }
+}
+
+&__footerbox{
+	padding-top: 100px;
+	
+}
+
+&__title-elipso{
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 47px;
+	color: $dark-blue3;
+	font-family: $nt;
+	font-size: 18px;
+	font-weight: 400;
+	@media (max-width: 991px) {
+    margin-top: 10px;
+    }
+	&:before{
+		display: block;
+		content: "";
+		position: absolute;
+		width: 80px;
+		height: 2px;
+		background-color: $gray;
+		bottom: 0;
+		@media (max-width: 991px) {
+    display: none;
+    }
+		
+	}
+	
+}
+
+&__title-contact{
+	    padding-top: 17px;
+	    padding-left: 40px;
+	    color: $dark-blue2;
+	    font-family: $ps;
+	    font-size: 20px;
+	    font-weight: 600;
+	   
+}
+&__title-link {
+	margin-bottom: 29px;
+	padding-top: 17px;
+	color: $dark-blue2;
+	font-family: $ps;
+	font-size: 20px;
+	font-weight: 600;
+	@media (max-width: 991px) {
+    margin-top: 30px;
+    
+
+    }
+	
+}
+&__footer-img{
+	display: inline-block;
+}
+
+&__contact-subtitle{
+	padding-top: 30px;	
+	padding-left: 80px;
+	display: inline-block;
+	color: $dark-blue3;
+	font-family: $ps;
+	font-size: 18px;
+	font-weight: 400;
+	
+}
+&__marker{
+    position: relative;
+	&:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 21px;
+    left: 39px;
+    top: 37px;
+	background: transparent url(image/map-marker.png) 0 0 no-repeat;
+	
+	}
+
+}
+&__phone{
+	position: relative;
+	&:before{
+	position: absolute;
+	content: "";
+	width: 21px;
+	height: 20px;
+	left: 39px;
+    top: 33px;
+	background: transparent url(image/phone.png) 0 0 no-repeat;
+	
+	}
+}
+&__envel-footer{
+	position: relative;
+	&:before{
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 15px;
+	left: 39px;
+    top: 38px;
+	background: transparent url(image/envel-footer.png) 0 0 no-repeat;
+	
+	}
+
+}
+a.el-footer__link:hover{
+	color: $pink;
+}
+
+a.el-footer__link{
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    color: $dark-blue2;
+    font-family: $ps;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 52px;
+
+	}
+
+&__text{
+    padding-top: 15px;
+    padding-bottom: 33px;
+    font-size: 22px;
+    line-height: 35px;
+	}
+
+	&__elipso-Sketch{
+	padding-top: 43px;
+	color: $dark-blue3;
+	font-family: $ps;
+	font-size: 18px;
+	font-weight: 400;
+&--bold{
+	color: $dark-blue3;
+	font-family: $ps;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+}
+a.el-footer__sketch-color{
+
+	text-decoration: none;
+	color: $light-blue;
+	font-family: $ps;
+	font-size: 18px;
+	font-weight: 400;
+	    &:hover{
+	    	color: $light-blue;
+	    }
+}
+	}

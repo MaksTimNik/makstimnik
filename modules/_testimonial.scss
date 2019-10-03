@@ -1,0 +1,46 @@
+.el-testimonial{
+	background: transparent url(image/testimg.png) 0 0 no-repeat;
+	background-size: cover;
+	
+	
+	&__title{
+
+    margin-top: 90px;
+    color: $dark-blue2;
+	font-family: $ps;
+	font-size: 34px;
+	font-weight: 600;
+	
+}
+
+&__subtitle{
+	
+	margin-top: 30px;
+	color: $dark-blue3;
+	font-family: $nt;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+&__kevin {
+	padding-top: 40px;
+	max-width: 64px;
+    margin: 0 auto;
+}
+&__name {
+    padding-top: 10px;
+    color: $dark-blue2;
+	font-family: $ps;
+	font-size: 20px;
+	font-weight: 600;	
+}
+&__expert {
+	padding-top: 5px;
+	color: $dark-blue3;
+	font-family: $nt;
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 80px;
+}
+
+}

@@ -1,0 +1,62 @@
+.el-action{
+
+	background: transparent url(image/testdownimg.png) 0 0 no-repeat;
+	background-size: cover;
+    @media (max-width: 991px) {
+    margin-top: 100px;
+
+    }
+	
+&__title{
+	margin-bottom: 0;
+    font-family: $ps;
+    font-size: 22px;
+    font-weight: 600;
+	color: $dark-blue2;
+	}
+&__text {
+    font-family: $ps;
+    font-size: 22px;
+    font-weight: 600;
+	color: $pink;
+}
+&__box-text {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+&__button{
+	display: inline-block;	
+    font-family: $ps;
+    font-size: 14px;
+    font-weight: 400;
+	border-color: transparent;
+	border: 0 !important;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;    
+    padding: 21px 25px;   
+    line-height: 0.80px;
+    border-radius: 20px;
+    background: rgb(239,113,113);
+    background: -moz-linear-gradient(45deg, rgba(239,113,113,1) 0%, rgba(255,149,96,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(239,113,113,1) 0%,rgba(255,149,96,1) 100%);
+    background: linear-gradient(45deg, rgba(239,113,113,1) 0%,rgba(255,149,96,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef7171', endColorstr='#ff9560',GradientType=1 );
+&:hover {
+    font-family: $ps;
+    font-size: 14px;
+    font-weight: 400;
+    color: $white;
+    background: rgb(239,113,113);
+    background: -moz-linear-gradient(45deg, rgba(239,113,113,1) 0%, rgba(255,149,96,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(239,113,113,1) 0%,rgba(255,149,96,1) 100%);
+    background: linear-gradient(45deg, rgba(239,113,113,1) 0%,rgba(255,149,96,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef7171', endColorstr='#ff9560',GradientType=1 );
+    border-color: transparent;
+    
+}
+@media (max-width: 991px) {
+    margin-top: 20px;
+}
+}
+}

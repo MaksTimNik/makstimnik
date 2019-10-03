@@ -1,0 +1,36 @@
+.el-tools{
+
+	&__wrap{
+    margin-top: 120px;
+	}
+	&__wrap-a{
+	padding-top: 70px;
+	padding-bottom: 120px;
+	@media (max-width: 991px) {
+    padding-bottom: 0;
+
+	}
+
+	}
+
+	&__title{
+
+    padding-top: 20px;
+    color: $dark-blue2;
+	font-family: $ps;
+	font-size: 34px;
+	font-weight: 600;
+	
+}
+
+&__subtitle{
+	
+	margin-top: 30px;
+	color: $dark-blue3;
+	font-family: $nt;
+	font-size: 16px;
+	font-weight: 400;
+	
+	
+}
+}

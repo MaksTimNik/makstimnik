@@ -1,0 +1,101 @@
+.el-projects{
+background-color: $white;
+padding-top: 59px;
+padding-bottom: 128px;
+@media (max-width: 991px) {
+    padding-bottom: 50px;
+
+	}
+	
+&__title-h{
+	line-height: 50px;
+    margin-top: 23px;
+    
+	color: $dark-blue2;
+	font-family: $ps;
+	font-size: 34px;
+	font-weight: 600;
+	
+}
+&__drspan{
+	display: block;
+}
+&__title{
+	
+	margin-top: 30px;
+	color: $dark-blue3;
+	font-family: $nt;
+	font-size: 18px;
+	font-weight: 400;
+	
+	
+}
+&__btnbox{
+margin-top: 46px;
+} 
+&__button{
+	display: inline-block;
+	
+    display: inline-block;
+    font-family: $ps;
+	font-size: 14px;
+	font-weight: 400;
+	border-color: transparent;
+	border: 0 !important;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;
+    
+    padding: 21px 25px;
+    
+    line-height: 0.80px;
+    border-radius: 20px;
+ background: rgb(104,82,237);
+background: -moz-linear-gradient(left, rgba(104,82,237,1) 0%, rgba(186,67,252,1) 100%);
+background: -webkit-linear-gradient(left, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+background: linear-gradient(to right, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6852ed', endColorstr='#ba43fc',GradientType=1 );
+&:hover {
+	font-family: $ps;
+	font-size: 14px;
+	font-weight: 400;
+	
+    color: $white;
+    background: rgb(104,82,237);
+background: -moz-linear-gradient(left, rgba(104,82,237,1) 0%, rgba(186,67,252,1) 100%);
+background: -webkit-linear-gradient(left, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+background: linear-gradient(to right, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6852ed', endColorstr='#ba43fc',GradientType=1 );
+    border-color: transparent;
+}
+}
+
+&__cards-arrow{
+	margin-top: 55px;
+	font-family: $ps;
+	font-size: 16px;
+	font-weight: 400;
+	color: $dark-blue2;
+	@media (max-width: 991px) {
+    padding-bottom: 50px;
+
+	}
+	}
+
+&__cards-arrow:hover{
+	cursor: pointer;
+}
+
+&__img-arrow{
+margin-left: 13px;
+}
+&__os{
+display: inline-block;
+}
+&__prbox{
+	padding: 0 0 0 68px;
+}
+&__colbox{
+	padding-top: 40px;
+}
+}

@@ -1,0 +1,92 @@
+.el-community{
+	background-color: $white;
+	position: relative;
+	padding-top: 120px;
+    padding-bottom: 80px;
+    
+    &:before{
+    	content: "";
+    	top: 135px;
+        left: -87px;
+        display: block;
+        height: 367px;
+        width: 60%;
+    	background: transparent url(image/Community.png) 0 0 no-repeat;
+	    background-size: contain;
+	    position: absolute;
+        @media (max-width: 991px) {
+        display:none;
+    }
+}
+	    
+    
+	&__supbox{
+		 padding-bottom: 70px;
+		 
+	}
+	&__title-h{
+	    line-height: 50px;
+        margin-top: 23px;
+	    color: $dark-blue2;
+        font-family: $ps;
+        font-size: 34px;
+        font-weight: 600;
+	
+	
+}
+
+&__title{	
+	margin-top: 30px;
+	color: $dark-blue3;
+    font-family: $nt;
+    font-size: 18px;
+    font-weight: 400;
+	
+}
+
+&__butbox{
+    margin-top: 46px;
+    margin-right: 30px;
+} 
+&__button{
+	display: inline-block;
+    font-family: $ps;
+    font-size: 14px;
+    font-weight: 400;	
+	border-color: transparent;
+	border: 0 !important;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;    
+    padding: 21px 25px;    
+    line-height: 0.80px;
+    border-radius: 20px;
+    background: rgb(104,82,237);
+    background: -moz-linear-gradient(left, rgba(104,82,237,1) 0%, rgba(186,67,252,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+    background: linear-gradient(to right, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6852ed', endColorstr='#ba43fc',GradientType=1 );
+&:hover {
+    font-family: $ps;
+    font-size: 14px;
+    font-weight: 400;
+    color: $white;
+    background: rgb(104,82,237);
+    background: -moz-linear-gradient(left, rgba(104,82,237,1) 0%, rgba(186,67,252,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+    background: linear-gradient(to right, rgba(104,82,237,1) 0%,rgba(186,67,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6852ed', endColorstr='#ba43fc',GradientType=1 );
+    border-color: transparent;
+}
+}
+a.el-community__su{
+    display: block;
+    text-decoration: none;
+    margin-top: 55px;
+    font-family: $ps;
+    font-size: 16px;
+    font-weight: 400;
+    color: $dark-blue2;
+    }
+}
+
